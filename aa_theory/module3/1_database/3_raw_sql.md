@@ -22,3 +22,10 @@
 - Trả về một mảng
 
 - Mỗi kết quả trong mảng là một đối tượng stdClass trong PHP
+
+## Phương thức insert()
+- Phương thức này sẽ thực hiện thêm dữ liệu vào Database
+
+    ```php
+    DB::insert('INSERT INTO user (id, name) VALUES (?, ?)', [1, 'Unicode Academy']);
+    ```
