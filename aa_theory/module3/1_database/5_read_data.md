@@ -35,7 +35,7 @@
 
 - Tạo file Controller: `app/Http/controllers/UsersController.php`, copy đoạn code
     
-    ![alt text](image/image21.png)
+    <img src="./image/image21.png" style="width: 600px;">
 
     ```php
     <?php
@@ -190,5 +190,5 @@
         ```
 
 - Kết quả thu được:
+<img src="./image/image22.png" style="width: 600px;">
     
-    ![alt text](image/image22.png)

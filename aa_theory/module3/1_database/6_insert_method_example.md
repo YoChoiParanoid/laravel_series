@@ -14,7 +14,7 @@
 ## Bước 1: Chuẩn bị, thay đổi sang xử lý bằng Model
 - Chạy câu lệnh tạo model: tạo file `app/Models/Users.php`
 
-    ![alt text](image/image23.png)
+    <img src="./image/image23.png" style="width=600px">
     
     ```php
     <?php
@@ -117,7 +117,7 @@
 
 - Tạo controller: `app/Http/Controllers/UsersController.php`
 
-    ![alt text](image/image24.png)
+    <img src="./image/image24.png" style="width=600px">
 
 - Gọi Model ra Controller: ta phải use namespace trước
 
@@ -151,7 +151,7 @@
 
 - Kết quả thu được:
 
-    ![alt text](image/image25.png)
+    <img src="./image/image25.png" style="width=600px">
 
 - Nhận xét:
     - Xử lý truy vấn như phần trước (ở Controller) vẫn đúng
@@ -215,7 +215,7 @@
 
 - Kết quả:
 
-    ![alt text](image/image26.png)
+    <img src="./image/image26.png" style="width=600px">
 
 - Thực hiện việc: nhận nút `Thêm người dùng` thì sẽ xuất hiện trang thêm
 
@@ -304,7 +304,7 @@
 
 - Kết quả thu được:
 
-    ![alt text](image/image27.png)
+    <img src="./image/image27.png" style="width=600px">
 
 - Chỉnh sửa: thêm form cho `resources/views/clients/users/add.blade.php`
 
@@ -346,7 +346,7 @@
 
 - Kết quả thu được:
 
-    ![alt text](image/image28.png)
+    <img src="./image/image28.png" style="width=600px">
 
 - Thêm action xử lý phương thức Post trong Controller `app/Http/Controllers/UsersController.php`
     ```php
@@ -555,11 +555,11 @@
 - Kết quả thu được:
     - Khi nhập sai:
         
-        ![alt text](image/image29.png)
+        <img src="./image/image29.png" style="width=600px">
 
     - Khi nhập đúng:
 
-        ![alt text](image/image30.png)
+        <img src="./image/image30.png" style="width=600px">
 
 - Hiện tại, trường hợp đúng vẫn in ra ok. Ta sẽ xử lý trường hợp này.
 
@@ -650,7 +650,7 @@
 
 - Kết quả thu được khi nhập đúng:
 
-    ![alt text](image/image31.png)
+    <img src="./image/image31.png" style="width=600px">
 
 - Ta cũng có thể làm bằng `$request->all()`. Nhưng nếu như vậy, ta phải chuyển về dạng tuần tự nên nó sẽ lâu hơn
 
@@ -686,4 +686,4 @@
 
 - Kết quả thu được khi nhập email đã tồn tại trong hệ thống:
 
-    ![alt text](image/image32.png)
+    <img src="./image/image32.png" style="width=600px">

@@ -16,7 +16,7 @@
 
 - Tạo basic controller HomeController
 
-    ![alt text](image/image10.png)
+    <img src="./image/image10.png" style="width: 600px">
 
     ```php
     <?php
@@ -75,7 +75,7 @@
 
 - Kết quả thu được:
 
-    ![alt text](image/image11.png)
+    <img src="./image/image11.png" style="width: 600px">
 
 ## Bước 2:
 - Thêm namespace DB cho controller `app/Http/Controllers/HomeController.php` để sử dụng lớp
@@ -91,13 +91,13 @@
 
 - Tạo bảng trong phpMyAdmin:
 
-    ![alt text](image/image12.png)
+    <img src="./image/image12.png" style="width: 600px">
 
-    ![alt text](image/image13.png)
+    <img src="./image/image13.png" style="width: 600px">
 
 - Insert dữ liệu thủ công
 
-    ![alt text](image/image14.png)
+    <img src="./image/image14.png" style="width: 600px">
 
 - Test phương thức `select()` với 1 tham số
     - Dán code này vào file app/Http/Controllers/HomeController.php
@@ -129,18 +129,18 @@
 
     - Kết quả thu được:
 
-        ![alt text](image/image15.png)
+        <img src="./image/image15.png" style="width: 600px">
 
     - Nhận xét: trả về một mảng, mỗi phần tử trong mảng là một đối tượng. Nên ta không thể gọi dữ liệu theo cách thông thường là ngoặc vuông của mảng. Ta phải sử dụng cách gọi của object.
 
 
     - Insert thêm 3 dữ liệu nữa:
 
-        ![alt text](image/image16.png)
+        <img src="./image/image16.png" style="width: 600px">
 
     - Tải lại trang, kết quả thu được:
 
-        ![alt text](image/image17.png)
+        <img src="./image/image17.png" style="width: 600px">
 
 - Test phương thức `select()` với 1 tham số (chuỗi truy vấn) và có điều kiện
     - Thay đổi đoạn code:
@@ -150,7 +150,7 @@
 
     - Kết quả thu được
 
-        ![alt text](image/image18.png)
+        <img src="./image/image18.png" style="width: 600px">
 
 - Test phương thức `select()` với 2 tham số (chuỗi truy vấn và tham số truyền vào chuỗi đó) và có điều kiện
     - Thay đổi đoạn code:
@@ -160,7 +160,7 @@
 
     - Kết quả thu được
 
-        ![alt text](image/image19.png)
+        <img src="./image/image19.png" style="width: 600px">
 
     - Nhận xét:
         - Cách truyền dữ liệu trên khác giống truyền PDO. Laravel cũng dùng PDO
@@ -175,4 +175,4 @@
 
     - Kết quả thu được:
         
-        ![alt text](image/image20.png)
+        <img src="./image/image20.png" style="width: 600px">
